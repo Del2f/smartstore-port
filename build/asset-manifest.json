@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/smartstore/static/css/main.cec6aee2.css",
+    "main.js": "/smartstore/static/js/main.d0979c06.js",
+    "static/media/sp_icon_pc.png": "/smartstore/static/media/sp_icon_pc.3f7cd3d422175a64fa4f.png",
+    "static/media/sp_common.png": "/smartstore/static/media/sp_common.7ae18960d607759897c1.png",
+    "static/media/Naver-Icons.woff2": "/smartstore/static/media/Naver-Icons.32e1bce2d5e3f44ad20e.woff2",
+    "static/media/Naver-booking-Icons.woff2": "/smartstore/static/media/Naver-booking-Icons.b15781ebbca54eebf004.woff2",
+    "static/media/sp_dashboard.svg": "/smartstore/static/media/sp_dashboard.d7b3f94d744eb7ef9b68.svg",
+    "index.html": "/smartstore/index.html",
+    "main.cec6aee2.css.map": "/smartstore/static/css/main.cec6aee2.css.map",
+    "main.d0979c06.js.map": "/smartstore/static/js/main.d0979c06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cec6aee2.css",
+    "static/js/main.d0979c06.js"
+  ]
+}
