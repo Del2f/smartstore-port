@@ -67,7 +67,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Del2f/smartstore.git",
+  "homepage": "https://Del2f.github.io/smartstore",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "keywords": [],
