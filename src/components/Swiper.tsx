@@ -14,7 +14,7 @@ function Swiper() {
       <Carousel.Item>
         <img
           className="carousel_img" 
-          src="img/top-banner-left1-pc.png"
+          src="./img/top-banner-left1-pc.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -23,7 +23,7 @@ function Swiper() {
       <Carousel.Item>
         <img
           className="carousel_img"
-          src="img/top-banner-left2-pc.png"
+          src="./img/top-banner-left2-pc.png"
           alt="Second slide"
         />
 
