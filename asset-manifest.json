@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smartstore/static/css/main.ad3395f7.css",
-    "main.js": "/smartstore/static/js/main.a30d0c3d.js",
+    "main.css": "/smartstore/static/css/main.9c590a3c.css",
+    "main.js": "/smartstore/static/js/main.7c2887c2.js",
     "static/media/sp_icon_pc.png": "/smartstore/static/media/sp_icon_pc.3f7cd3d422175a64fa4f.png",
     "static/media/sp_common.png": "/smartstore/static/media/sp_common.7ae18960d607759897c1.png",
     "static/media/Naver-Icons.woff2": "/smartstore/static/media/Naver-Icons.32e1bce2d5e3f44ad20e.woff2",
@@ -16,13 +16,14 @@
     "index.html": "/smartstore/index.html",
     "static/media/icon-arrow-6x9.svg": "/smartstore/static/media/icon-arrow-6x9.8c6ab9e6de9b24b2719e.svg",
     "static/media/icon-arrow-right-blue-13.svg": "/smartstore/static/media/icon-arrow-right-blue-13.04a9482fc5e648d2312d.svg",
+    "static/media/icon-fold-16.f93fa38d.svg": "/smartstore/static/media/icon-fold-16.f93fa38d.70d59949313474943db3.svg",
     "static/media/icon-help-16.svg": "/smartstore/static/media/icon-help-16.a302f8f8038dd8a2af0b.svg",
     "static/media/logo-naver-green.svg": "/smartstore/static/media/logo-naver-green.5824370b8dc9f53021dc.svg",
-    "main.ad3395f7.css.map": "/smartstore/static/css/main.ad3395f7.css.map",
-    "main.a30d0c3d.js.map": "/smartstore/static/js/main.a30d0c3d.js.map"
+    "main.9c590a3c.css.map": "/smartstore/static/css/main.9c590a3c.css.map",
+    "main.7c2887c2.js.map": "/smartstore/static/js/main.7c2887c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad3395f7.css",
-    "static/js/main.a30d0c3d.js"
+    "static/css/main.9c590a3c.css",
+    "static/js/main.7c2887c2.js"
   ]
 }
