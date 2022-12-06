@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smartstore/static/css/main.7d6309bd.css",
-    "main.js": "/smartstore/static/js/main.0713b4cf.js",
+    "main.js": "/smartstore/static/js/main.ead2353f.js",
     "static/media/sp_about_pc_220823.png": "/smartstore/static/media/sp_about_pc_220823.87987724d37291f82578.png",
     "static/media/about_bg.jpg": "/smartstore/static/media/about_bg.0f6cf52d0c905dda59d8.jpg",
     "static/media/sp_icon_pc.png": "/smartstore/static/media/sp_icon_pc.3f7cd3d422175a64fa4f.png",
@@ -25,10 +25,10 @@
     "static/media/icon-help-16.svg": "/smartstore/static/media/icon-help-16.a302f8f8038dd8a2af0b.svg",
     "static/media/logo-naver-green.svg": "/smartstore/static/media/logo-naver-green.5824370b8dc9f53021dc.svg",
     "main.7d6309bd.css.map": "/smartstore/static/css/main.7d6309bd.css.map",
-    "main.0713b4cf.js.map": "/smartstore/static/js/main.0713b4cf.js.map"
+    "main.ead2353f.js.map": "/smartstore/static/js/main.ead2353f.js.map"
   },
   "entrypoints": [
     "static/css/main.7d6309bd.css",
-    "static/js/main.0713b4cf.js"
+    "static/js/main.ead2353f.js"
   ]
 }
