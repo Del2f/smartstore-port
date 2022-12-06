@@ -1,0 +1,519 @@
+
+/* root */
+
+html {
+    /* height: 100%; */
+    /* min-height: 100%; */
+    
+}
+
+.main-wrap {
+    /* display: block; */
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+/* 헤더 */
+
+.header-wrap {
+    border-bottom: 1px solid rgba(0,0,0,.106);
+    background: #fff;
+}
+
+.header-inner {
+    line-height: 24px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.header-icon {
+    /* padding: 24px 0; */
+    /* line-height: 12px; */
+    width: 56px;
+    height: 12px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/logo-naver-56x12.svg) 0px 0px no-repeat;
+
+}
+
+.header-logo {
+    /* padding: 30px 0; */
+    /* line-height: 24px; */
+    width: 93px;
+    height: 24px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/logo-cid-93x24.svg) 0px 0px no-repeat;
+    margin-left: 7px;
+}
+
+@media (min-width: 1440px) {
+    .header-inner {
+        width: 1440px;
+    }
+}
+
+@media (min-width: 664px) {
+    .header-inner {
+        padding: 0 48px;
+    }
+}
+
+@media (max-width: 663px) {
+    .header-inner {
+        padding: 0 18px;
+        height: 48px;
+    }
+
+    .header-icon {
+        width: 24px;
+        height: 24px;
+        content: "";
+        background: url(../../public/img/logo-naver-green.svg) 0px 0px no-repeat;
+    }
+    .header-logo {
+        width: 62px;
+        height: 16px;
+        content: "";
+        background: url(../../public/img/logo-cid-62x16.svg) 0px 0px no-repeat;
+    }
+    
+}
+
+/* 미들 레이아웃 */
+
+.layout-wrap {
+    background-color: #fff;
+}
+
+.layout-inner {
+
+}
+
+.login-content {
+    padding: 40px 18px 59px;
+}
+
+.login-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: rgba(0,0,0,.93);
+    letter-spacing: -.8px;
+    text-align: center;
+}
+
+.login-desc {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -.5px;
+    color: rgba(0,0,0,.93);
+    word-break: keep-all;
+    text-align: center;
+}
+
+.login-notice {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0,0,0,.37);
+    letter-spacing: -.2px;
+    word-break: keep-all;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 400;
+    color: #00c73c;
+}
+
+.n-commerce-find {
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    color: #247ee2;
+    margin-top: 16px;
+}
+
+
+
+.n-commerce-text {
+    padding-right: 15px;
+    position: relative;
+}
+
+.n-commerce-text:after {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 13px;
+    height: 13px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/icon-arrow-right-blue-13.svg) 0px 0px no-repeat;
+}
+
+.login-area {
+    max-width: 500px;
+    margin: 40px auto 0;
+}
+
+.login-type-item {
+    width: 100%;
+    padding: 13px 0 15px;
+    border: 1px solid #e3e3e3;
+    border-bottom-color: #d9d9d9;
+    border-radius: 7px 7px 0 0;
+    background-color: #f4f4f4;
+}
+
+.login-content-box {
+    padding: 18px 18px 23px;
+    border: 1px solid #d9d9d9;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.login-item {
+    position: relative;
+    padding: 5px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px 8px 0 0;
+}
+
+.login-item + .login-item {
+    margin-top: -1px;
+    border-radius: 0 0 8px 8px;
+}
+
+.login-item-hover {
+    border: 1px solid rgb(0,0,0,.53);
+    z-index: 10;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: initial;
+    font-size: 15px;
+    line-height: 44px;
+    color: rgba(0,0,0,.93);
+    letter-spacing: -.2px;
+    outline: transparent;
+}
+
+.login-input::placeholder {
+    color: #a1a1a1;
+    font-weight: 100;
+}
+
+.login-list, .login-type {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login-type-item {
+    text-align: center;
+}
+
+/* 로그인 버튼 */
+
+.login-btn-wrap {
+    margin-top: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #03c75a;
+    display: block;
+    text-align: center;
+    line-height: 18px;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #00bc3a;
+}
+
+.login-btn-wrap .login-btn-text {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+/* input active */
+
+.login-item-active {
+    z-index: 1;
+    border-color: #03c75a;
+}
+
+/* 아이디 비밀번호 찾기 */
+
+.login-help {
+    padding: 0px;
+    margin: 7px -8px 0;
+}
+
+.login-help-item {
+    display: inline-block;
+}
+
+.login-help-item + .login-help-item {
+    position: relative;
+    margin-left: 1px;
+}
+
+.login-help-item + .login-help-item:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    height: 14px;
+    margin: auto 0;
+    border-left: 1px solid rgba(0,0,0,.1);
+    content: "";
+}
+    
+.login-help-item a {
+    display: block;
+    padding: 8px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.login-content-box .login-help-text {
+    font-size: 15px;
+    color: rgba(0,0,0,.69);
+    letter-spacing: -.2px;
+}
+
+.login-help-box {
+    position: relative;
+    margin-top: 35px;
+}
+
+.login-help-box .login-help-text {
+    font-size: 15px;
+    line-height: 19px;
+    color: #03c75a;
+    letter-spacing: -.5px;
+}
+
+.login-help-btn {
+    border: none;
+    background-color: #fff;
+    padding: 4px;
+    line-height: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.login-help-btn .login-help-btn-icon {
+    width: 16px;
+    height: 16px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/icon-help-16.svg) 0px 0px no-repeat;
+}
+
+.login-subnotice {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(0,0,0,.93);
+    letter-spacing: -.2px;
+}
+
+.login-subnotice-text {
+    margin-right: 8px;
+}
+
+.login-subnotice-signup-text a   {
+    color: #03c75a;
+}
+
+/* 공지사항 리스트 */
+
+.login-notice-list {
+    margin-top: 40px;
+    padding: 40px 0 5px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.login-notice-list-item {
+    position: relative;
+    padding-left: 9px;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0,0,0,.37);
+    letter-spacing: -.2px;
+}
+
+.login-notice-list-item:not(:first-child) {
+    margin-top: 6px;
+}
+
+.login-notice-list-item:not(:last-child):before {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.53);
+    content: "";
+}
+
+.login-notice-list-item:last-child{
+    margin-top: 8px;
+    padding: 0px;
+}
+
+.login-notice-list-text {
+    font-size: 15px;
+    line-height: 20px;
+    color: #03c75a;
+    letter-spacing: -.2px;
+}
+
+.login-notice-list-text:after {
+    width: 6px;
+    height: 9px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/icon-arrow-6x9.svg) 0px 0px no-repeat;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+/* footer */
+.login-footer-wrap {
+    background-color: #fafafa;
+}
+
+.footer-copyright-pc {
+    display: none;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -.2px;
+    color: rgba(0,0,0,.69);
+    text-align: center;
+}
+
+.footer-copyright-m {
+    padding: 3px 0 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #767a83;
+    text-align: center;
+}
+
+.login-footer-wrap .link-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-link-logo {
+    margin-right: 11px;
+}
+
+.login-footer-wrap .footer-link-list {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.login-footer-wrap .footer-link-item {
+    display: inline-block;
+}
+
+.footer-copyright-pc .footer-link-text b,.footer-link-text span {
+    color: #535353;
+}
+.footer-copyright-m span {
+    color: #767a83;
+}
+
+.login-footer-wrap .footer-inner {
+    padding: 20px 0;
+}
+
+.login-footer-wrap .footer-link {
+    display: inline-block;
+    line-height: 14px;
+    padding: 10px 7px;
+}
+
+.login-footer-wrap .footer-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0,0,0,.87);
+}
+
+.login-footer-wrap .naver-logo {
+    width: 63px;
+    height: 12px;
+    content: "";
+    display: inline-block;
+    background: url(../../public/img/logo-naver-63x12.svg) 0px 0px no-repeat;
+}
+
+.footer-link-logo {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.footer-link-text {
+    display: inline-block;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+
+@media (min-width: 1056px) {
+    .layout-inner {
+        width: 1056px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 664px) {
+    .login-title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .login-desc {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .login-notice {
+        margin-top: 12px;
+    }
+    .login-content {
+        padding: 92px 18px 81px;
+    }
+    .n-commerce-find {
+        margin-top: 12px;
+    }
+    .login-content-box {
+        padding: 23px 24px 17px;
+    }
+    .footer-copyright-pc {
+        display: block;
+    }
+    .footer-copyright-m {
+        display: none;
+    }
+}
